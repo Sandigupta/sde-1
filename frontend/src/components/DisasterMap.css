@@ -1,0 +1,31 @@
+.map-container {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .leaflet-popup-content {
+    max-width: 300px;
+  }
+  
+  .leaflet-popup-content h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .leaflet-popup-content p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .leaflet-popup-content button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .leaflet-popup-content button:hover {
+    background: #2980b9;
+  }
+  

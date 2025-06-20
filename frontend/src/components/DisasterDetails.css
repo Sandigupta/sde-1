@@ -1,0 +1,152 @@
+.disaster-details {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .header h1 {
+    flex: 1;
+    color: #2c3e50;
+  }
+  
+  .status-badge {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .content {
+    background: white;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+  }
+  
+  .description p {
+    line-height: 1.8;
+    color: #666;
+  }
+  
+  .tags {
+    margin-bottom: 2rem;
+  }
+  
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .tag {
+    padding: 0.5rem 1rem;
+    background: #e9ecef;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .resources {
+    margin-bottom: 2rem;
+  }
+  
+  .resource-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .resource-item {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+  }
+  
+  .resource-item h3 {
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+  }
+  
+  .resource-item p {
+    margin: 0.25rem 0;
+    color: #666;
+  }
+  
+  .updates {
+    margin-bottom: 2rem;
+  }
+  
+  .update-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .update-item {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+  }
+  
+  .update-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .platform {
+    color: #666;
+    font-weight: 600;
+  }
+  
+  .timestamp {
+    color: #999;
+    font-size: 0.9rem;
+  }
+  
+  .update-content {
+    color: #666;
+  }
+  
+  .update-image {
+    max-width: 100%;
+    border-radius: 4px;
+    margin: 1rem 0;
+  }
+  
+  .verification-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  
+  .verification-badge[status="verified"] {
+    background: #d4edda;
+    color: #155724;
+  }
+  
+  .verification-badge[status="suspicious"] {
+    background: #fff3cd;
+    color: #856404;
+  }
+  
+  .verification-badge[status="fake"] {
+    background: #f8d7da;
+    color: #721c24;
+  }
+  

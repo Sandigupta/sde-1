@@ -1,0 +1,202 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+/dist
+/build
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+/coverage
+
+# Backend specific
+/backend/.env
+/backend/.env.*
+/backend/node_modules/
+/backend/dist/
+/backend/build/
+
+# Frontend specific
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.*.local
+/frontend/dist/
+/frontend/build/
+/frontend/node_modules/
+
+# Database
+*.db
+*.sqlite
+
+# Cache
+.cache
+npm-cache
+
+# Temp files
+*.tmp
+*.temp
+
+# Deployment
+.deploy
+
+# Report files
+reports/
+coverage/
+
+# Debug files
+*.d.ts
+*.d.ts.map
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Editor
+*.sublime-project
+*.sublime-workspace
+
+# Editor
+.vscode/
+*.code-workspace
+
+# Editor
+.npm/
+.yarn/
+
+# Editor
+.pnpm-store/
+
+# Editor
+*.iml
+
+# Editor
+*.ipr
+*.iws
+
+# Editor
+*.pyc
+*.pyo
+*.pyd
+
+# Editor
+__pycache__/
+*.so
+*.egg-info/
+
+# Editor
+*.class
+*.jar
+*.war
+*.ear
+
+# Editor
+*.swp
+*.swo
+
+# Editor
+*.sublime-project
+*.sublime-workspace
+
+# Editor
+.vscode/
+*.code-workspace
+
+# Editor
+.npm/
+.yarn/
+
+# Editor
+.pnpm-store/
+
+# Editor
+*.iml
+
+# Editor
+*.ipr
+*.iws
+
+# Editor
+*.pyc
+*.pyo
+*.pyd
+
+# Editor
+__pycache__/
+*.so
+*.egg-info/
+
+# Editor
+*.class
+*.jar
+*.war
+*.ear
+
+# Editor
+*.swp
+*.swo
+
+# Editor
+*.sublime-project
+*.sublime-workspace
+
+# Editor
+.vscode/
+*.code-workspace
+
+# Editor
+.npm/
+.yarn/
+
+# Editor
+.pnpm-store/
+
+# Editor
+*.iml
+
+# Editor
+*.ipr
+*.iws
+
+# Editor
+*.pyc
+*.pyo
+*.pyd
+
+# Editor
+__pycache__/
+*.so
+*.egg-info/
+
+# Editor
+*.class
+*.jar
+*.war
+*.ear
